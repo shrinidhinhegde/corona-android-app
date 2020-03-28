@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_gpa"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="General Public Advice"/>
+    <item
+        android:id="@+id/nav_ipc"
+        android:icon="@drawable/ic_block_black_24dp"
+        android:title="Infection prevention and control / WASH"/>
+    <item
+        android:id="@+id/nav_gsw"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:title="Guidance for schools, workplaces and institutions"/>
+    <item
+        android:id="@+id/nav_poe"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="Points of entry and mass gatherings"/>
+    <item
+        android:id="@+id/nav_ani"
+        android:icon="@drawable/ic_pets_black_24dp"
+        android:title="Reduction of transmission from animals to humans"/>
+
+</menu>

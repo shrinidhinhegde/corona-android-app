@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tool_who"
+        android:icon="@drawable/ic_who"
+        app:showAsAction="always"
+        android:title="WHO Links">
+        <menu>
+            <item
+                android:id="@+id/tool_who_web"
+                android:title="WHO Website"/>
+            <item
+                android:id="@+id/tool_who_twitter"
+                android:title="WHO Twitter"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/tool_moh"
+        android:icon="@drawable/moh"
+        app:showAsAction="always"
+        android:title="Ministry of Health Links">
+        <menu>
+            <item
+                android:id="@+id/tool_moh_web"
+                android:title="Ministry of Health Website"/>
+            <item
+                android:id="@+id/tool_moh_twitter"
+                android:title="Ministry of Health Twitter"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/tool_stats"
+        android:icon="@drawable/ic_poll_black_24dp"
+        app:showAsAction="always"
+        android:title="Statistics">
+        <menu>
+            <item
+                android:id="@+id/tool_stat_global"
+                android:title="Global Statistics"/>
+            <item
+                android:id="@+id/tool_stat_state"
+                android:title="State-wise Statistics"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/tool_contact"
+        android:icon="@drawable/ic_call_black_24dp"
+        app:showAsAction="always"
+        android:title="Contact"/>
+    <item
+        android:id="@+id/tool_whatsapp"
+        android:title="Join WHO's Health Alerts on Whatsapp"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tool_report"
+        android:title="Report Quarantine Violation"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tool_share"
+        android:title="Share this App"
+        app:showAsAction="never"/>
+    <item
+        android:title="About the Developer"
+        android:id="@+id/tool_about"
+        app:showAsAction="never"/>
+</menu>
