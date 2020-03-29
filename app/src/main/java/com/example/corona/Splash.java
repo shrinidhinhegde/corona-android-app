@@ -21,7 +21,7 @@ public class Splash extends AppCompatActivity {
                 .withHeaderText("")
                 .withFooterText("Developed by Shrinidhi Hegde")
                 .withBeforeLogoText("covED-19")
-                .withLogo(R.mipmap.ic_launcher_round)
+                .withLogo(R.drawable.ieee_bangalore)
                 .withAfterLogoText("");
 
         Typeface footerFont = Typeface.createFromAsset(getAssets(), "Oswald-Bold.ttf");
